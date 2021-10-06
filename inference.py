@@ -14,7 +14,7 @@ args = parser.parse_args()
 IMG_WIDTH = 256
 IMG_HEIGHT = 256
 
-gen = load_model('models/maps_model.h5')
+gen = load_model('maps_model.h5')
 
 image =cv2.imread(args.input)
 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
