@@ -6,7 +6,7 @@ Image-to-Image Translation Using Conditional Adversarial Networks
 #
 
 
-- [x] train.py
+- [ ] train.py
 - [x] inference.py
 
 #
@@ -28,15 +28,15 @@ Image-to-Image Translation Using Conditional Adversarial Networks
 
 ### Inference
 
-1- for inference, first clone this repository using following command:
+1- for inference, first clone this repository using the following command:
 
 ```
 git clone https://github.com/NahidEbrahimian/pix2pix-tensorflow
 ```
 
-2- then, download pretraned model from the table and put in `./pix2pix-tensorflow` directory
+2- Then, download pre-trained model from the table and put in `./pix2pix-tensorflow` directory.
 
-3- put your input images in `./input/maps` directory and run the following command. generated images will be saved under `./output/maps` directory. 
+3- Put your input images in `./input/maps` directory and run the following command. generated images will be saved under `./output/maps` directory. 
 
 ```
 !python3 inference.py --input input/maps/03.jpg
