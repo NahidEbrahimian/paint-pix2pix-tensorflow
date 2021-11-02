@@ -15,9 +15,9 @@ Image-to-Image Translation Using Conditional Adversarial Networks
 | Dataset  | Model |
 | ------------- | ------------- |
 |maps|[download]( https://drive.google.com/file/d/1-aGQ78qFieai5CkBiUhz3Hw1b-EudpO4/view?usp=sharing)|
-|cityscapes|      |
-|edges2handbags|      |
-|edges2shoes|      |
+|cityscapes|[download]( https://drive.google.com/file/d/1-EMn9piSvsYnLnlcH1HyODeyqbC9FjRb/view?usp=sharing)      |
+|edges2handbags|[download]( https://drive.google.com/file/d/10MStW9oQ3R591G_SWi9fdLQQ5ikwQtUZ/view?usp=sharing)      |
+|edges2shoes|[download]( https://drive.google.com/file/d/1-XypWpkrefi-rmRRXFDHbvHWAyADDvqc/view?usp=sharing)     |
 |facades|[download]( https://drive.google.com/file/d/1-r1C9hrm0rDo9h7odbjc85SIbxbFitaz/view?usp=sharing)     |
 |night2day|      |
 
