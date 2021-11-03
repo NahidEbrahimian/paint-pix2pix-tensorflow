@@ -19,7 +19,7 @@ Image-to-Image Translation Using Conditional Adversarial Networks
 |edges2handbags|[download]( https://drive.google.com/file/d/10MStW9oQ3R591G_SWi9fdLQQ5ikwQtUZ/view?usp=sharing)      |
 |edges2shoes|[download]( https://drive.google.com/file/d/1-XypWpkrefi-rmRRXFDHbvHWAyADDvqc/view?usp=sharing)     |
 |facades|[download]( https://drive.google.com/file/d/1-r1C9hrm0rDo9h7odbjc85SIbxbFitaz/view?usp=sharing)     |
-|night2day|      |
+|night2day|[download]( https://drive.google.com/file/d/1-Yex8Ujb7fDW_SGYR_yrhK9Tu3GykrCy/view?usp=sharing)      |
 
 #
 
