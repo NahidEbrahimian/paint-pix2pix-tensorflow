@@ -8,7 +8,6 @@ Image-to-Image Translation Using Conditional Adversarial Networks
 
 #
 
-
 - [ ] train.py
 - [x] inference.py
 
@@ -28,7 +27,14 @@ Image-to-Image Translation Using Conditional Adversarial Networks
 
 ### Train
 
-#
+- For training:
+
+1-  You can run `pix2pix-cGAN-on-maps-dataset.ipynb` file
+
+2- OR run the following command:
+
+```
+```
 
 ### Inference on Image
 
