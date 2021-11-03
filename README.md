@@ -13,6 +13,7 @@ Image-to-Image Translation Using Conditional Adversarial Networks
 - [x] inference.py
 
 #
+### Models
 
 | Dataset  | Model |
 | ------------- | ------------- |
@@ -29,7 +30,7 @@ Image-to-Image Translation Using Conditional Adversarial Networks
 
 #
 
-### Inference
+### Inference on Image
 
 1- for inference, first clone this repository using the following command:
 
