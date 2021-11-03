@@ -44,10 +44,13 @@ Image-to-Image Translation Using Conditional Adversarial Networks
 git clone https://github.com/NahidEbrahimian/pix2pix-tensorflow
 ```
 
-2- Then, download pre-trained model from the table and put in `./pix2pix-tensorflow` directory.
+2- Then, select your model from the table above
 
-3- Put your input images in `./input/maps` directory and run the following command. generated images will be saved under `./output/maps` directory. 
+3- Put your input images in `./input/maps` directory
+
+4- run the following command
 
 ```
-!python3 inference.py --input input/maps/03.jpg
+python3 inference.py --input model/maps/01.jpg --model maps
+
 ```
