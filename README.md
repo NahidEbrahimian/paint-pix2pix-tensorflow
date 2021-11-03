@@ -1,8 +1,10 @@
 # pix2pix-tensorflow
 Image-to-Image Translation Using Conditional Adversarial Networks
 
-![download](https://user-images.githubusercontent.com/82975802/136291775-3603ee00-442c-4dea-a76c-319c75e73245.png)
-![facades](https://user-images.githubusercontent.com/82975802/139734285-b37c1997-d388-4cf1-8772-e3fdc5085373.png)
+|night2day![1_83_to_60](https://user-images.githubusercontent.com/82975802/140188194-9168b7a0-c83a-467e-b26a-2dad7868a235.jpg)|edges2shoes![ba9ea360-d563-4cbb-8d2e-7f54b1f8cc44](https://user-images.githubusercontent.com/82975802/140188431-16737fc6-3d02-4d7a-b0f5-4f228cb6f467.jpeg)|facades![11](https://user-images.githubusercontent.com/82975802/140188508-3b505b02-dbc2-4826-a0f4-37727502b4b7.jpg)|
+| ------------- | ------------- | ------------- |
+|edges2handbags![103_AB](https://user-images.githubusercontent.com/82975802/140189363-99aa1203-10e1-4f87-92e3-e3283cf077d3.jpg)| cityscapes![10](https://user-images.githubusercontent.com/82975802/140188577-c6936293-9a7f-4301-8e93-79cc08b9525c.jpg)|maps![1002](https://user-images.githubusercontent.com/82975802/140189945-fd63e667-093d-48be-abab-69526bb8df88.jpg)|
+
 
 #
 
