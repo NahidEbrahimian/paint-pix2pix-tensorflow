@@ -45,13 +45,17 @@ Image-to-Image Translation Using Conditional Adversarial Networks
 git clone https://github.com/NahidEbrahimian/pix2pix-tensorflow
 ```
 
-2- Then, select your model from the table above
+2- Then, according to the above pictures, select your favorite dataset name that you want to run inference(for example: maps, cityscapes or ...)
 
-3- Put your input images in `./input/maps` directory
+3- Put your input images in `./input/dataset_name` directory(dataset_name refers to favorite dataset name that you selected in previous step)
 
 4- run the following command
 
+dataset_name: favorite dataset name that selected in step2
+
+input: your input images
+
 ```
-python3 inference.py --input model/maps/01.jpg --model maps
+python3 inference.py --input input/maps/01.jpg --dataset_name maps
 
 ```
