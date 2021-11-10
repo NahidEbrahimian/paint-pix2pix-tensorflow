@@ -25,7 +25,7 @@ models_url = {
 
 id = models_url[args.dataset_name]
 gdd.download_file_from_google_drive(file_id=id,
-                                    dest_path='model/{}.h5'.format(args.model))
+                                    dest_path='model/{}.h5'.format(args.dataset_name))
 gen = load_model('model/{}.h5'.format(args.dataset_name))
 
 image =cv2.imread(args.input)
