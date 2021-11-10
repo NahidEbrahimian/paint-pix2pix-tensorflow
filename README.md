@@ -31,6 +31,10 @@ You can download the trained model from the table below
 
 ### Train
 
+- In Google Colaboratory with 12GB ram
+
+- For all datasets, Model trained on 5K images of training set and in 40k steps
+ 
 - For training:
 
 1-  You can run `pix2pix-cGAN-on-maps-dataset.ipynb` file
