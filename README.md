@@ -14,7 +14,9 @@ Image-to-Image Translation Using Conditional Adversarial Networks
 #
 ### Models
 
-| Dataset  | Model |
+You can download the trained model from the table below
+
+| Dataset Name  | Model |
 | ------------- | ------------- |
 |maps|[download]( https://drive.google.com/file/d/1-aGQ78qFieai5CkBiUhz3Hw1b-EudpO4/view?usp=sharing)|
 |cityscapes|[download]( https://drive.google.com/file/d/1-EMn9piSvsYnLnlcH1HyODeyqbC9FjRb/view?usp=sharing)      |
@@ -45,7 +47,7 @@ Image-to-Image Translation Using Conditional Adversarial Networks
 git clone https://github.com/NahidEbrahimian/pix2pix-tensorflow
 ```
 
-2- Then, according to the above pictures, select your favorite dataset name that you want to run inference(for example: maps, cityscapes or ...)
+2- Then, according to the pictures above, select your favorite dataset name that you want to run inference(for example: maps, cityscapes or ...)
 
 3- Put your input images in `./input/dataset_name` directory(dataset_name refers to favorite dataset name that you selected in previous step)
 
