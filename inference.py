@@ -9,7 +9,7 @@ from google_drive_downloader import GoogleDriveDownloader as gdd
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--input", type=str)
-parser.add_argument("--model", type=str)
+parser.add_argument("--dataset_name", type=str)
 args = parser.parse_args()
 
 IMG_WIDTH = 256
@@ -23,10 +23,10 @@ models_url = {
     "facades" : "1-r1C9hrm0rDo9h7odbjc85SIbxbFitaz",
     "maps" : "1-aGQ78qFieai5CkBiUhz3Hw1b-EudpO4"}
 
-id = models_url[args.model]
-# gdd.download_file_from_google_drive(file_id=id,
-#                                     dest_path='model/{}.h5'.format(args.model))
-gen = load_model('model/{}.h5'.format(args.model))
+id = models_url[args.dataset_name]
+gdd.download_file_from_google_drive(file_id=id,
+                                    dest_path='model/{}.h5'.format(args.model))
+gen = load_model('model/{}.h5'.format(args.dataset_name))
 
 image =cv2.imread(args.input)
 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
@@ -38,7 +38,8 @@ gen_output = gen(input_image, training=True)
 gen_output = np.array((gen_output[0,:, :, :] + 1) * 127.5).astype('uint8')
 
 file_name, file_ext = os.path.splitext(os.path.basename(args.input))
-cv2.imwrite(f'{file_name}.jpg', gen_output)
+os.mkdir('output/{}'.format(args.dataset_name))
+cv2.imwrite(f'output/{args.dataset_name}/{file_name}.jpg', gen_output)
 
 plt.figure(figsize=(8, 8))
 plt.subplot(1, 2, 1)
