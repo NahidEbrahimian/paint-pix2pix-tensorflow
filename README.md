@@ -14,9 +14,9 @@ Image-to-Image Translation Using Conditional Adversarial Networks
 - [x] inference.py
 
 #
-### Trained Models
+### Models
 
-You can download the trained model from the table below
+You can download trained model from the table below
 
 | Dataset Name  | Model |
 | ------------- | ------------- |
@@ -31,7 +31,7 @@ You can download the trained model from the table below
 
 ### Train
 
-- In Google Colaboratory with 12GB ram
+- In Google Colabo with 12GB RAM
 
 - For all datasets, model trained on 5K images of training set and in 40k steps
  
@@ -61,7 +61,7 @@ git clone https://github.com/NahidEbrahimian/pix2pix-tensorflow
 
 dataset_name: favorite dataset name that selected in step2
 
-input: your input images
+input: your input image
 
 ```
 python3 inference.py --input input/maps/01.jpg --dataset_name maps
