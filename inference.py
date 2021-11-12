@@ -17,7 +17,7 @@ IMG_HEIGHT = 256
 
 models_url = {
     "cityscapes": "1-EMn9piSvsYnLnlcH1HyODeyqbC9FjRb",
-    "edges2handbags": "h10MStW9oQ3R591G_SWi9fdLQQ5ikwQtUZ",
+    "edges2handbags": "10MStW9oQ3R591G_SWi9fdLQQ5ikwQtUZ",
     'edges2shoes' : "1-XypWpkrefi-rmRRXFDHbvHWAyADDvqc",
     "night2day" : "1-Yex8Ujb7fDW_SGYR_yrhK9Tu3GykrCy",
     "facades" : "1-r1C9hrm0rDo9h7odbjc85SIbxbFitaz",
@@ -38,7 +38,9 @@ gen_output = gen(input_image, training=True)
 gen_output = np.array((gen_output[0,:, :, :] + 1) * 127.5).astype('uint8')
 
 file_name, file_ext = os.path.splitext(os.path.basename(args.input))
-os.mkdir('output/{}'.format(args.dataset_name))
+output_directory = 'output/{}'.format(args.dataset_name)
+if not os.path.exists(output_directory):
+    os.makedirs(output_directory)
 cv2.imwrite(f'output/{args.dataset_name}/{file_name}.jpg', gen_output)
 
 plt.figure(figsize=(8, 8))
