@@ -45,6 +45,9 @@ For training:
 
 ### Inference on Image
 
+| ![05](https://user-images.githubusercontent.com/82975802/142739384-f3b4e211-da93-4c2f-a9d5-cf8f760abd40.jpg)|![05](https://user-images.githubusercontent.com/82975802/142739393-11eabbe9-2001-4e59-ab1a-ed1cd6902ce4.jpg)|
+| ------------- | ------------- |
+
 1- for inference, first clone this repository using the following command:
 
 ```
@@ -75,5 +78,29 @@ input: your input image
 
 ```
 python3 inference_img.py --input input/maps/01.jpg --dataset_name maps
+
+```
+#
+
+### Inference using paint and QT on edges2shoes dataset
+
+https://user-images.githubusercontent.com/82975802/142739686-adeb3545-c074-413d-807c-b3f42b73d2cb.mp4
+
+1- first clone this repository using the following command:
+
+```
+git clone https://github.com/NahidEbrahimian/pix2pix-tensorflow
+```
+
+2- In `./pix2pix-tensorflow` directory, run the following command to install requirements:
+
+```
+pip install -r requirements.txt
+```
+
+3- Run the following command
+
+```
+python3 qt.py
 
 ```
