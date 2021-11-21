@@ -13,9 +13,9 @@ Image-to-Image Translation Using Conditional Adversarial Networks
 - [x] inference.py
 
 #
-### Models
+### Pretrained Models
 
-You can download trained model from the table below
+You can download pretrained model from the table below 
 
 | Dataset Name  | Model |
 | ------------- | ------------- |
@@ -31,9 +31,9 @@ You can download trained model from the table below
 
 - In Google Colabo with 12GB RAM
 
-- For all datasets, model trained on 5K images of training set and in 40k steps
+- FOn 5K images of training set and in 40k steps
  
-For training:
+training:
 
 1-  You can run `pix2pix-cGAN-on-maps-dataset.ipynb` file
 
@@ -48,7 +48,7 @@ For training:
 | ![05](https://user-images.githubusercontent.com/82975802/142739384-f3b4e211-da93-4c2f-a9d5-cf8f760abd40.jpg)|![05](https://user-images.githubusercontent.com/82975802/142739393-11eabbe9-2001-4e59-ab1a-ed1cd6902ce4.jpg)|
 | ------------- | ------------- |
 
-1- for inference, first clone this repository using the following command:
+1- For inference, first clone this repository using the following command:
 
 ```
 git clone https://github.com/NahidEbrahimian/pix2pix-tensorflow
@@ -60,9 +60,9 @@ git clone https://github.com/NahidEbrahimian/pix2pix-tensorflow
 pip install -r requirements.txt
 ```
 
-3- Then, according to the pictures above and model input and output according to the following, select your favorite dataset name that you want to run inference(for example: maps, cityscapes or ...)
+3- Then, according to the images above and model input and output according to the following, select your favorite dataset name that you want to run inference(for example: maps, cityscapes or ...)
   
-model input and output fo each dataset:
+model input and output fo each dataset in images above:
 
 - for cityscapes,facades, maps --> right image = model input and left image = output
 
