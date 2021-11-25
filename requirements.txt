@@ -1,4 +1,4 @@
-pip install opencv-python
-pip install tensorflow
-pip install googledrivedownloader
-pip install PyQt5
+opencv-python
+tensorflow
+googledrivedownloader
+PyQt5
