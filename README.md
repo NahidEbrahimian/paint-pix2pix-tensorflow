@@ -31,7 +31,7 @@ You can download pretrained model from the table below
 
 - In Google Colabo with 12GB RAM
 
-- FOn 5K images of training set and in 40k steps
+- 5K images of training set and in 40k steps
  
 training:
 
