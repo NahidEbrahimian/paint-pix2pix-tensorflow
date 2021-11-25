@@ -62,7 +62,7 @@ pip install -r requirements.txt
 
 3- Then, according to the images above and model input and output according to the following, select your favorite dataset name that you want to run inference(for example: maps, cityscapes or ...)
   
-model input and output fo each dataset in images above:
+model input and output for each dataset in images above:
 
 - for cityscapes,facades, maps --> right image = model input and left image = output
 
