@@ -28,7 +28,7 @@ path = 'model/{}.h5'.format(args.dataset_name)
 id = models_url[args.dataset_name]
 
 if not os.path.exists(path):
-    if not os.path.exists(path):
+    if not os.path.exists(model_path):
         os.makedirs(model_path)
         gdd.download_file_from_google_drive(file_id=id,
                                         dest_path=path)
@@ -53,6 +53,7 @@ if not os.path.exists(output_directory):
     os.makedirs(output_directory)
 
 cv2.imwrite(f'output/{args.dataset_name}/{file_name}.jpg', gen_output)
+
 cv2.imshow('gen_output', gen_output)
 cv2.waitKey()
 

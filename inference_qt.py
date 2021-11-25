@@ -9,12 +9,17 @@ def inference(input):
     IMG_WIDTH = 256
     IMG_HEIGHT = 256
 
-    model_path = 'model'
+    model_path = 'model/edges2shoes.h5'
     if not os.path.exists(model_path):
-        os.makedirs(model_path)
-        gdd.download_file_from_google_drive(file_id='1-XypWpkrefi-rmRRXFDHbvHWAyADDvqc',
-                                        dest_path=os.path.join(model_path, 'edges2shoes.h5'))
-    gen = load_model(os.path.join(model_path, 'edges2shoes.h5'))
+        if not os.path.exists('model'):
+            os.makedirs('model')
+            gdd.download_file_from_google_drive(file_id='1-XypWpkrefi-rmRRXFDHbvHWAyADDvqc',
+                                            dest_path=model_path)
+        else:
+            gdd.download_file_from_google_drive(file_id='1-XypWpkrefi-rmRRXFDHbvHWAyADDvqc',
+                                            dest_path=model_path)
+
+    gen = load_model('model/edges2shoes.h5')
 
     input_image = cv2.cvtColor(input, cv2.COLOR_BGR2RGB)
     input_image = cv2.resize(input_image, (IMG_HEIGHT, IMG_WIDTH)).astype('float32')
