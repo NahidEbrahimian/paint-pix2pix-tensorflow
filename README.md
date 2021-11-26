@@ -13,7 +13,7 @@ Image-to-Image Translation Using Conditional Adversarial Networks
 - [x] inference.py
 
 #
-### Pretrained Models
+### Models
 
 You can download pretrained model from the table below 
 
