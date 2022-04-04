@@ -9,7 +9,7 @@ Image-to-Image Translation Using Conditional Adversarial Networks
 
 #
 
-- [ ] train.py
+- [x] pix2pix-cGAN-on-maps-dataset.ipynb(train)
 - [x] inference.py
 
 #
@@ -35,12 +35,8 @@ You can download pretrained model from the table below
  
 training:
 
-1-  You can run `pix2pix-cGAN-on-maps-dataset.ipynb` file
+- For training, you can run `pix2pix-cGAN-on-maps-dataset.ipynb` file.
 
-2- OR run the following command:
-
-```
-```
 #
 
 ### Inference on Image
@@ -51,10 +47,10 @@ training:
 1- For inference, first clone this repository using the following command:
 
 ```
-git clone https://github.com/NahidEbrahimian/pix2pix-tensorflow
+https://github.com/NahidEbrahimian/paint-pix2pix-tensorflow
 ```
 
-2- In `./pix2pix-tensorflow` directory, run the following command to install requirements:
+2- In `./paint-pix2pix-tensorflow` directory, run the following command to install requirements:
 
 ```
 pip install -r requirements.txt
@@ -89,10 +85,10 @@ https://user-images.githubusercontent.com/82975802/142739686-adeb3545-c074-413d-
 1- first clone this repository using the following command:
 
 ```
-git clone https://github.com/NahidEbrahimian/pix2pix-tensorflow
+git clone https://github.com/NahidEbrahimian/paint-pix2pix-tensorflow
 ```
 
-2- In `./pix2pix-tensorflow` directory, run the following command to install requirements:
+2- In `./paint-pix2pix-tensorflow` directory, run the following command to install requirements:
 
 ```
 pip install -r requirements.txt
