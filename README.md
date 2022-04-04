@@ -82,7 +82,7 @@ python3 inference_img.py --input input/maps/01.jpg --dataset_name maps
 
 https://user-images.githubusercontent.com/82975802/142739686-adeb3545-c074-413d-807c-b3f42b73d2cb.mp4
 
-1- first clone this repository using the following command:
+1- For run Inference using paint and QT on edges2shoes dataset, Ffrst clone this repository using the following command:
 
 ```
 git clone https://github.com/NahidEbrahimian/paint-pix2pix-tensorflow
@@ -94,7 +94,7 @@ git clone https://github.com/NahidEbrahimian/paint-pix2pix-tensorflow
 pip install -r requirements.txt
 ```
 
-3- Run the following command
+3- Then, run the following command:
 
 ```
 python3 qt.py
